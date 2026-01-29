@@ -2,7 +2,7 @@
   {
     "name": "RTL to GDSII Implementation of PicoRV32 (RISC-V)",
     "desc": "Implemented PicoRV32 RISC-V core from RTL to tapeout-ready GDSII using Cadence.",
-    "image": "picorv32",
+    "image": "picorv32.png",
     "category": "asic",
     "links": {
       "view": "https://www.linkedin.com/posts/srb-tyagi_vlsi-cadencevirtuoso-cmosdesign-activity-7373302049347846144-cup7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYIpNMByGwvvOiat9onXcSbO8Oxch46flo",
@@ -96,4 +96,5 @@
       "code": "#"
     }
   }
+
 ]
