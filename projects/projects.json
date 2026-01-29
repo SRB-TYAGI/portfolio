@@ -1,0 +1,99 @@
+[
+  {
+    "name": "RTL to GDSII Implementation of PicoRV32 (RISC-V)",
+    "desc": "Implemented PicoRV32 RISC-V core from RTL to tapeout-ready GDSII using Cadence.",
+    "image": "picorv32",
+    "category": "asic",
+    "links": {
+      "view": "https://www.linkedin.com/posts/srb-tyagi_vlsi-cadencevirtuoso-cmosdesign-activity-7373302049347846144-cup7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYIpNMByGwvvOiat9onXcSbO8Oxch46flo",
+      "code": "https://github.com/SRB-TYAGI/RISC-V-PROCESSOR"
+    }
+  },
+
+  {
+    "name": "Analog IC Design (Op-Amps & Amplifiers)",
+    "desc": " Designed and simulated operational amplifiers and amplifier circuits, meeting gain specifications within 5% tolerance.",
+    "image": "opamp",
+    "category": "analog",
+    "links": {
+      "view": "https://www.linkedin.com/posts/srb-tyagi_vlsi-cadencevirtuoso-cmosdesign-activity-7300098525936160768-GrYP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYIpNMByGwvvOiat9onXcSbO8Oxch46flo",
+      "code": "https://github.com/SRB-TYAGI/Cadence-Virtuoso_Projects/tree/main/2.Analog%20circuits"
+    }
+  },
+   {
+    "name": "LM741 Operational Amplifier Design Using Cadence Virtuoso",
+    "desc": "Designed the LM741 operational amplifier in Cadence Virtuoso with emphasis on gain, frequency response, and stability",
+    "image": "LM741",
+    "category": "Digital design",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/SRB-TYAGI/LM741-Operational-Amplifier-Design-Using-Cadence-Virtuoso"
+    }
+  },
+
+  {
+  
+  
+    "name": "6T SRAM Cell Design (90nm CMOS)",
+    "desc": "Designed a high-performance 6T SRAM memory/write margin analysis, PVT corner checks, and post-layout simulations.",
+    "image": "sram6t",
+    "category": "vlsi",
+    "links": {
+      "view": "https://www.linkedin.com/posts/srb-tyagi_vlsi-cadencevirtuoso-cmosdesign-activity-7300511461926125568-zfUB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYIpNMByGwvvOiat9onXcSbO8Oxch46flo",
+      "code": "https://github.com/SRB-TYAGI/SRAM/tree/main/6T_SRAM%20Cell/Images"
+    }
+  },
+
+  {
+    "name": "Digital VLSI & FPGA Post-Processing for QKD",
+    "desc": "Implemented Verilog blocks for a real-time QKD pipeline, focusing on Sifting & Privacy Amplification.",
+    "image": "QKD Post-Processing Workflow",
+    "category": "fpga",
+    "links": {
+      "view": "https://www.linkedin.com/feed/update/urn:li:activity:7353478365732884482/",
+      "code": "https://github.com/SRB-TYAGI/QKD-project"
+    }
+  },
+
+  {
+    "name": "Combinational Circuit Design & Implementation",
+    "desc": "Developed a library of 30+ combinational logic and arithmetic circuits, including multiplexers, subtractors, and decoders, using 90 nm CMOS technology. ",
+    "image": "combinational",
+    "category": "Digital design",
+    "links": {
+      "view": "https://github.com/SRB-TYAGI/Cadence-Virtuoso_Projects/tree/main/1.Combinational%20circuits",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Sequential Circuits Design & Implementation",
+    "desc": "Designed and implemented sequential circuits including flip-flops, latches, registers, and counters using CMOS logic.",
+    "image": "sequential",
+    "category": "Digital design",
+    "links": {
+      "view": "https://github.com/SRB-TYAGI/Cadence-Virtuoso_Projects/tree/main/3.Sequential%20Circuit",
+      "code": "#"
+    }
+  },
+   {
+    "name": "50 Days of Cadence: Digital & Analog Circuit Design Practice",
+    "desc": "Daily practice of digital and analog circuit design using Cadence tools, documented over 50 days on LinkedIn",
+    "image": "50dayscadence",
+    "category": "Digital design",
+    "links": {
+      "view": "https://www.linkedin.com/posts/srb-tyagi_vlsi-cadencevirtuoso-cmosdesign-activity-7282809451441496064-bzXI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYIpNMByGwvvOiat9onXcSbO8Oxch46flo",
+      "code": "https://github.com/SRB-TYAGI/50_Days_Cadence_Virtuoso_Projects"
+    }
+  },
+ 
+    {
+    "name": "AI-Based Blind Stick for Image Detection",
+    "desc": "Developed a device that detects object distance and produces alarm sounds when nearing an object. It also speaks the object's name to the user. ",
+    "image": "blindstick",
+    "category": "Digital design",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  }
+]
