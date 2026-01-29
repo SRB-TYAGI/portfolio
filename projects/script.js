@@ -17,19 +17,21 @@ $(document).ready(function () {
     });
 });
 
+// tab change title + favicon
 document.addEventListener('visibilitychange', function () {
     if (document.visibilityState === "visible") {
         document.title = "Projects | Portfolio Sourabh Tyagi";
-        $("#favicon").attr("href", "../assets/images/favicon.png");
+        $("#favicon").attr("href", "assets/images/favicon.png");
     } else {
         document.title = "Come Back To Portfolio";
-        $("#favicon").attr("href", "../assets/images/favhand.png");
+        $("#favicon").attr("href", "assets/images/favhand.png");
     }
 });
 
+
 // ================= FETCH PROJECTS =================
 function getProjects() {
-    return fetch("projects.json")
+    return fetch("projects/projects.json")
         .then(response => response.json())
         .then(data => data);
 }
@@ -43,7 +45,7 @@ function showProjects(projects) {
         <div class="grid-item ${project.category}">
             <div class="box tilt" style="width: 380px; margin: 1rem">
                 <img draggable="false"
-                     src="../assets/images/projects/${project.image}.png"
+                     src="assets/images/projects/${project.image}.png"
                      alt="${project.name}" />
 
                 <div class="content">
@@ -69,7 +71,7 @@ function showProjects(projects) {
 
     projectsContainer.innerHTML = projectsHTML;
 
-    // ISOTOPE FILTER
+    // isotope
     var $grid = $('.box-container').isotope({
         itemSelector: '.grid-item',
         layoutMode: 'fitRows'
@@ -87,6 +89,7 @@ getProjects().then(data => {
     showProjects(data);
 });
 
+
 // ================= TAWK CHAT =================
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 (function () {
@@ -99,12 +102,13 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     s0.parentNode.insertBefore(s1, s0);
 })();
 
-// ================= DISABLE DEV TOOLS =================
+
+// ================= DISABLE DEV KEYS =================
 document.onkeydown = function (e) {
     if (
-        e.keyCode === 123 ||
+        e.keyCode == 123 ||
         (e.ctrlKey && e.shiftKey && ['I', 'C', 'J'].includes(String.fromCharCode(e.keyCode))) ||
-        (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+        (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0))
     ) {
         return false;
     }
