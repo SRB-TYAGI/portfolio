@@ -89,7 +89,7 @@
     {
     "name": "Design of 4KB SRAM Using Noble Schmitt Trigger-Based 12T Bit Cell",
     "desc": "Designed a 4KB SRAM using a Noble Schmitt Trigger-Based 12T Bit Cell in GPDK 90nm Technology and verified its performance using Cadence Virtuoso. ",
-    "image": "blindstick",
+    "image": "4kb sram image",
     "category": "Digital design",
     "links": {
       "view": "#",
