@@ -87,7 +87,7 @@
   },
  
     {
-    "name": "AI-Based Blind Stick for Image Detection",
+    "name": "Design of 4KB SRAM Using Noble Schmitt Trigger-Based 12T Bit Cell",
     "desc": "Developed a device that detects object distance and produces alarm sounds when nearing an object. It also speaks the object's name to the user. ",
     "image": "blindstick",
     "category": "Digital design",
