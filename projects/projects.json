@@ -1,7 +1,7 @@
 [
   {
     "name": "RTL to GDSII Implementation of PicoRV32 (RISC-V)",
-    "desc": "Implemented PicoRV32 RISC-V core from RTL to tapeout-ready GDSII using Cadence.",
+    "desc": "Completed the RTL-to-GDSII flow of the PicoRV32 RISC-V core using Cadence EDA tools and Sky130 PDK, achieving WNS = 0 ns and TNS = 0 ns.",
     "image": "picorv32",
     "category": "asic",
     "links": {
@@ -9,25 +9,14 @@
       "code": "https://github.com/SRB-TYAGI/RISC-V-PROCESSOR"
     }
   },
-
   {
-    "name": "Analog IC Design (Op-Amps & Amplifiers)",
-    "desc": " Designed and simulated operational amplifiers and amplifier circuits, meeting gain specifications within 5% tolerance.",
-    "image": "opamp",
-    "category": "analog",
+    "name": "Design of 4KB SRAM Using Noble Schmitt Trigger-Based 12T Bit Cell",
+    "desc": "Designed a 4KB SRAM using a Noble Schmitt Trigger-Based 12T Bit Cell in GPDK 90nm Technology and verified its performance using Cadence Virtuoso. ",
+    "image": "Symbolic Representation of Proposed 4Kb SRAM Architecture",
+    "category": "Symbolic Representation of Proposed 4Kb SRAM Architecture",
     "links": {
-      "view": "https://www.linkedin.com/posts/srb-tyagi_vlsi-cadencevirtuoso-cmosdesign-activity-7300098525936160768-GrYP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYIpNMByGwvvOiat9onXcSbO8Oxch46flo",
-      "code": "https://github.com/SRB-TYAGI/Cadence-Virtuoso_Projects/tree/main/2.Analog%20circuits"
-    }
-  },
-   {
-    "name": "LM741 Operational Amplifier Design Using Cadence Virtuoso",
-    "desc": "Designed the LM741 operational amplifier in Cadence Virtuoso with emphasis on gain, frequency response, and stability",
-    "image": "LM741",
-    "category": "Digital design",
-    "links": {
-      "view": "#",
-      "code": "https://github.com/SRB-TYAGI/LM741-Operational-Amplifier-Design-Using-Cadence-Virtuoso"
+      "view": "https://lnkd.in/p/dCyQZ7HB",
+      "code": "https://github.com/SRB-TYAGI/Design-of-4Kb-SRAM-Using-Noble-Schmitt-Trigger-Based-12T-Bit-Cell-in-GPDK-90nm-Technology"
     }
   },
 
@@ -35,7 +24,7 @@
   
   
     "name": "6T SRAM Cell Design (90nm CMOS)",
-    "desc": "Designed a high-performance 6T SRAM memory/write margin analysis, PVT corner checks, and post-layout simulations.",
+    "desc": "Designed a high-performance 6T SRAM memory cell in Cadence Virtuoso with SNM, PVT analysis, DRC/LVS, PEX, and post-layout validation.",
     "image": "sram6t",
     "category": "vlsi",
     "links": {
@@ -45,19 +34,8 @@
   },
 
   {
-    "name": "Digital VLSI & FPGA Post-Processing for QKD",
-    "desc": "Implemented Verilog blocks for a real-time QKD pipeline, focusing on Sifting & Privacy Amplification.",
-    "image": "QKD Post-Processing Workflow",
-    "category": "fpga",
-    "links": {
-      "view": "https://www.linkedin.com/feed/update/urn:li:activity:7353478365732884482/",
-      "code": "https://github.com/SRB-TYAGI/QKD-project"
-    }
-  },
-
-  {
     "name": "Combinational Circuit Design & Implementation",
-    "desc": "Developed a library of 30+ combinational logic and arithmetic circuits, including multiplexers, subtractors, and decoders, using 90 nm CMOS technology. ",
+    "desc": "Developed a library of 30+ combinational logic and arithmetic circuits, including multiplexers, subtractors, and decoders, using 90nm CMOS technology. ",
     "image": "combinational",
     "category": "Digital design",
     "links": {
@@ -67,7 +45,7 @@
   },
   {
     "name": "Sequential Circuits Design & Implementation",
-    "desc": "Designed and implemented sequential circuits including flip-flops, latches, registers, and counters using CMOS logic.",
+    "desc": "Designed CMOS-based sequential circuits including flip-flops, latches, registers, and counters with schematic, layout, and functional verification.",
     "image": "sequential",
     "category": "Digital design",
     "links": {
@@ -75,27 +53,55 @@
       "code": "#"
     }
   },
+
+  {
+    "name": "Digital VLSI & FPGA Post-Processing for QKD",
+    "desc": "Designed Verilog modules for QKD post-processing, including Sifting and Privacy Amplification.Verified functionality using Xilinx Vivado simulation.",
+    "image": "QKD Post-Processing Workflow",
+    "category": "fpga",
+    "links": {
+      "view": "https://www.linkedin.com/feed/update/urn:li:activity:7353478365732884482/",
+      "code": "https://github.com/SRB-TYAGI/QKD-project"
+    }
+  },
+
+
+  {
+    "name": "Analog IC Design (Op-Amps & Amplifiers)",
+    "desc": " Designed and verified operational amplifier circuits through simulation, successfully meeting gain specifications within 5% tolerance.",
+    "image": "opamp",
+    "category": "analog",
+    "links": {
+      "view": "https://www.linkedin.com/posts/srb-tyagi_vlsi-cadencevirtuoso-cmosdesign-activity-7300098525936160768-GrYP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYIpNMByGwvvOiat9onXcSbO8Oxch46flo",
+      "code": "https://github.com/SRB-TYAGI/Cadence-Virtuoso_Projects/tree/main/2.Analog%20circuits"
+    }
+  },
    {
+    "name": "LM741 Operational Amplifier Design Using Cadence Virtuoso",
+    "desc": "Designed the LM741 operational amplifier in Cadence Virtuoso, optimizing gain, frequency response, stability, and overall circuit performance.",
+    "image": "LM741",
+    "category": "Digital design",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/SRB-TYAGI/LM741-Operational-Amplifier-Design-Using-Cadence-Virtuoso"
+    }
+  },
+
+  
+  {
     "name": "50 Days of Cadence: Digital & Analog Circuit Design Practice",
-    "desc": "Daily practice of digital and analog circuit design using Cadence tools, documented over 50 days on LinkedIn",
+    "desc": "Performed daily digital and analog circuit design using Cadence EDA tools and documented over 50 learning sessions on LinkedIn.",
     "image": "50dayscadence",
     "category": "Digital design",
     "links": {
       "view": "https://www.linkedin.com/posts/srb-tyagi_vlsi-cadencevirtuoso-cmosdesign-activity-7282809451441496064-bzXI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYIpNMByGwvvOiat9onXcSbO8Oxch46flo",
       "code": "https://github.com/SRB-TYAGI/50_Days_Cadence_Virtuoso_Projects"
     }
-  },
- 
-    {
-    "name": "Design of 4KB SRAM Using Noble Schmitt Trigger-Based 12T Bit Cell",
-    "desc": "Designed a 4KB SRAM using a Noble Schmitt Trigger-Based 12T Bit Cell in GPDK 90nm Technology and verified its performance using Cadence Virtuoso. ",
-    "image": "4kb sram image",
-    "category": "Symbolic Representation of Proposed 4Kb SRAM Architecture.png",
-    "links": {
-      "view": "https://lnkd.in/p/dCyQZ7HB",
-      "code": "https://github.com/SRB-TYAGI/Design-of-4Kb-SRAM-Using-Noble-Schmitt-Trigger-Based-12T-Bit-Cell-in-GPDK-90nm-Technology"
-    }
   }
+
+
+
+
 
 ]
 
